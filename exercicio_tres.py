@@ -7,7 +7,7 @@ def is_valida_notas(nota_um, nota_dois):
     elif not isinstance(nota_dois, (float, int)):
         raise Exception ("Por favor, digite um numero correto!!!")
     
-    elif nota_um and nota_dois < 0:
+    elif nota_um < 0 or nota_dois < 0:
         raise Exception ("Não existem notas negativas!!!")
        
     else:
