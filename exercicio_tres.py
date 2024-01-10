@@ -7,7 +7,7 @@ def is_valida_notas(nota_um, nota_dois):
     elif not isinstance(nota_dois, (float, int)):
         raise Exception ("Por favor, digite um numero correto!!!")
     
-    elif nota_um or nota_dois < 0:
+    elif nota_um and nota_dois < 0:
         raise Exception ("Não existem notas negativas!!!")
        
     else:
@@ -16,7 +16,7 @@ def is_valida_notas(nota_um, nota_dois):
 def is_calcula_media(nota_um, nota_dois):
     nota_media = (nota_um + nota_dois) / 2
 
-    return nota_media
+    return f"Sua nota media e {nota_media} pontos"
 
 def main():
     nota_um = float(input("Digite sua primeira nota: "))
@@ -28,5 +28,7 @@ def main():
 
     print(validacao_notas)
     print(calcula_media)
+
+main()
 
 
