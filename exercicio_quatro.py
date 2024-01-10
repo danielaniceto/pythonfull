@@ -24,9 +24,12 @@ def is_aluno_analisation(nome_aluno, nota_media):
     if nota_media >= 6:
         return f"Caro aluno {nome_aluno} sua nota média foi de {nota_media}, e você foi aprovaado!!!, PARABENS\n"
     
-    elif nota_media <= 4:
-        return f"Caro aluno {nome_aluno} sua nota média foi de {nota_media}, e você foi reprovado!!!, DESCULPE\n"
+    elif nota_media >= 4:
+        return f"Caro aluno {nome_aluno} sua nota média foi de {nota_media}, e você ficou de recuperação!!!, ESTUDE MAIS\n"
 
+    else:
+        return f"Caro aluno {nome_aluno} sua nota média foi de {nota_media}, e você foi reprovado!!!, DESCULPE\n"
+    
 def is_media_calculation(primeira_nota, segunda_nota, terceira_nota, quarta_nota):
     nota_media = (primeira_nota + segunda_nota + terceira_nota + quarta_nota) / 4
 
