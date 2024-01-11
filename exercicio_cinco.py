@@ -21,7 +21,7 @@ def is_processing_higher_number(first_number, second_number, third_number):
         return f"The largest number entered was the {second_number}\n"
     
     elif first_number == second_number and first_number == third_number:
-        return f"The tre numbens are equal's {first_number}, {second_number}, {third_number}"
+        return f"The tre numbern's are equal's {first_number}, {second_number}, {third_number}"
 
     else:
         return f"The largest number entered was the {third_number}\n"
