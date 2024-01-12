@@ -1,0 +1,1 @@
+# Esse programa tem por função, receber uma temperatura em farenheit e converte-la para celsius, apresentando para o user posteriormente
