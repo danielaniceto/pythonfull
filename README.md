@@ -1,1 +1,1 @@
-
+Esse projeto tem por base e função principal fazer a atualização dos estudos em lógica de programação, revisando todos os conceitos e estudos de programação da linguagem python, além de trabalhar o inglês básico e ainda aprimorar nossa integração com os comandos e as rotinas de uso do GitHub.
