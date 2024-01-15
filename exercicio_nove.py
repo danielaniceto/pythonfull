@@ -14,11 +14,11 @@ def is_multiplication_table(number_multiplication_table):
         i += 1
 
 def main():
-    number_multiplication_table = int(input("Enter the number for multiplication table here: \n"))
+    number_multiplication_table = int(input("Enter the number for multiplication table here: "))
 
     number_check = is_check_number(number_multiplication_table)
     print(number_check)
 
-    multiplication_table = is_multiplication_table(number_multiplication_table)
+    is_multiplication_table(number_multiplication_table)
 
 main()
