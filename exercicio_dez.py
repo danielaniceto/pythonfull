@@ -1,0 +1,1 @@
+"""O foco desse programa e receber uma nota de um aluno de 0 a 10, e validar se o valor digitado está dentro desse range de valores aceitos"""
