@@ -1,1 +1,1 @@
-"""Tabuada"""
+"""O objetivo deste programa e de realizar uma tabuada dado o numero que o user inserir"""
