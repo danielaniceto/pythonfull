@@ -22,11 +22,12 @@ def is_analys_range_grade(student_grade):
 
 def main():
     student_grade = int(input("Please enter a grade this your student for validation: "))
-
+    
     validation_type_grade = is_validation_type_grade(student_grade)
     print(validation_type_grade)
 
     range_analysis = is_analys_range_grade(student_grade)
     print(range_analysis)
-
-main()
+            
+if __name__ == "__main__":
+    main()
