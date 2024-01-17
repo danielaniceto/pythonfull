@@ -1,3 +1,7 @@
+"""O objetivo desse exercicio e de após recebido um valor pre estabelecido de soma,
+correr um array para verficar se a soma de alguns elementos dentro de uma lista equivale
+ao valor soma pre estabelecido"""
+
 def is_teste_soma_inteiros( numeros_inteiros, targetSum):
 
     armazena_numeros_lista = {}
