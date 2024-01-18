@@ -6,7 +6,7 @@ def is_validation_type_number(number):
         return "Please, enter the number correct!! \n"
     
     else:
-        return "Every ok, number valid !!! \n"
+        return "Every ok, number valid !!!\n"
 
 def is_even_number_separations(number):
     cont = 0
