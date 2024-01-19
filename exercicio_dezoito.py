@@ -2,9 +2,11 @@
 numeros, começando por 0 a 1000, usando o laço de repetição FOR"""
 
 def main():
-    i = 0
-    for i in range(0, 1000):
-            print()
-        i += 1
+    cont = 0
+    for cont in range(0, 1000):
+            if cont % 2 == 0:
+                print(cont)
+            cont += 1
+            
 if __name__ == "__main__":
     main()
