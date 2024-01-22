@@ -1,0 +1,1 @@
+#Receber 10 valores, e mostrar a soma de todos eles, isso usando listas
