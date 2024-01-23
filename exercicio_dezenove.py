@@ -5,6 +5,11 @@ def is_sum_numbers_list(list_numbers):
     
     return sum(list_numbers)
 
+"""e o mesmo que fazer assim
+sum = 0
+for i in list_numbers:
+    sum = sum + i"""
+
 def is_verification_list(list_numbers):
     if isinstance(list_numbers, (float, int)):
         return False
