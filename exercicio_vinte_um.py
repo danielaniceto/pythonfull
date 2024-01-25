@@ -1,0 +1,1 @@
+"""O objetivo desse programa e trabalhar e aprimorar a construção e o uso de funções"""
