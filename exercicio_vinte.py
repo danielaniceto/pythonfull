@@ -2,16 +2,16 @@
 pessoas, usando lista e dicionários, os atributos são, nome, idade, altura das
 pessoas"""
 
-def is_add_info_pleoples(name, age, height, decision):
-    peoples = []
-    if decision == 1:
-        people = {'nome' : name, 'age' : age, 'heigth' : height}
+def is_add_info_pleoples(name, age, height, peoples):
+    people = {'nome' : name, 'age' : age, 'heigth' : height}
+    
+    peoples.append(people)
 
-        peoples.append(people)
-
-    return peoples
+    return peoples      
 
 def main():
+    peoples = []
+
     while True:
         decision = int(input("Press 2 for out or 1 for new register: "))
         if decision == 2:
@@ -20,10 +20,10 @@ def main():
         name = input("Please enter the name here: ")
         age = input("Please, enter the age here: ")
         height = input("Please, enter the height here: ")
+        
+        is_add_info_pleoples(name, age, height, peoples)
 
-        add_inf_peoples = is_add_info_pleoples(name, age, height)
-
-    print(add_inf_peoples)
+    print(peoples)
 
 if __name__ == "__main__":
     main()
