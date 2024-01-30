@@ -6,4 +6,3 @@ class PessoasClientes():
         self.idade = idade
         self.cpf = cpf
         self.endereco = endereco
-        

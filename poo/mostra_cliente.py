@@ -8,4 +8,3 @@ def forma_mensagem_cliente(self):
         seu CPF e {PessoasClientes.cpf}, e seu endereço e {PessoasClientes.endereco}")
     
     return infos_pessoa
-
