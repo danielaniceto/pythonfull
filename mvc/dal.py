@@ -8,14 +8,9 @@ class PessoaDal:
             
     @classmethod
     def ler(cls):
-        nome = "Daniel"
-        idade = 32
-        cpf = 12123566565
-        return Pessoa(nome, idade, cpf)
-
-p1 = Pessoa("Daniel", 32, "12102910291")
-PessoaDal.salvar(p1)
-
-print(PessoaDal.ler().nome)
-print(PessoaDal.ler().idade)
-print(PessoaDal.ler().cpf)
+        try:
+            with open("pessoas.txt", "r") as arq:
+                arq_pessoas = arq.read()
+            return arq_pessoas
+        except FileExistsError:
+            return "Usuário não encontrado"
